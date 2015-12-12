@@ -115,3 +115,74 @@ header {
 	text-align: center;
 	margin-top: 10px;
 }
+@media only screen and (max-width : 1200px) {
+.container {
+	width: 768px;
+	margin: auto;
+}
+
+}
+@media only screen and (max-width : 992px) {
+.container {
+	width: 768px;
+
+}
+}
+@media only screen and (max-width : 768px) {
+.container {
+	width: 480px;
+	
+}
+h1 {
+	font-size: 20px;
+}
+.col-3 {
+	width: 100%;
+	height: auto;
+}
+span .fa {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 30px;
+}
+}
+@media only screen and (max-width : 480px) {
+.container {
+	width: 320px;
+}
+
+header {
+ height: 350px;
+}
+h1 {
+	font-size: 20px;
+}
+p {
+	font-size: 20px;
+}
+.top-header img {
+	width: 50%;
+	margin-top : 50px;
+	border-radius: 4px;
+}
+.menu {
+	position: relative;
+	left: 170px;
+	bottom: 200px;
+
+}
+span .fa {
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+}
+@media only screen and (max-width : 320px) {
+.container {
+	width: 100%;
+}
+h1 {
+	font-size: 15px;
+}
+}
